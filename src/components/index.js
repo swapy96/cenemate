@@ -1,3 +1,3 @@
-export { Header } from "./Header";
-export { Footer } from "./footer";
-export { Card } from "./Card";
+export { default as Header } from "./Header";
+export { default as Footer } from "./footer";
+export { default as Card } from "./Card";
