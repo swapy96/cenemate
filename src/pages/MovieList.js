@@ -1,7 +1,16 @@
 import React from "react";
+import Card from "../components/Card";
 
 function MovieList() {
-  return <main>{/* <div classNames="text-9xl p-10 bg-emerald-200 border-9 border-blue-700 rounded-lg m-5">MovieList in movie</div> */}</main>;
+  return (
+    <main>
+      <section className="max-w-7xl mx-auto py-7">
+        <div className="flex justify-start flex-wrap">
+          <Card />
+        </div>
+      </section>
+    </main>
+  );
 }
 
 export default MovieList;
